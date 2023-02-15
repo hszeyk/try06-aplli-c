@@ -56,5 +56,11 @@ void main() {
 ----------------------------------*/
 
 void main() {
-  // ここに書いてみよう
+  print('Heloo World');
+  print(1+2);
+  print(4*9);
+  print(32%13);
+  print(25%5);
+  print((3*5)-8);
 }
+
