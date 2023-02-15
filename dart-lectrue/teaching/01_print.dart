@@ -57,4 +57,6 @@ void main() {
 
 void main() {
   // ここに書いてみよう
+  print('Hello World!');
+  print(1+2);
 }
