@@ -84,5 +84,7 @@ void main() {
 ----------------------------------*/
 
 void main() {
-  // ここに書いてね
+  const int neko = 1;
+  print('猫は$neko匹います');
+  
 }

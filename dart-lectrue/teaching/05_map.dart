@@ -96,5 +96,20 @@ void main() {
 ----------------------------------*/
 
 void main() {
-  // ここに書いてね
+  var age = {"ichiro": 12, "jiro": 22,"saburo": 33};
+  age["total"] = age["ichiro"]! + age["jiro"]! + age["saburo"]!;
+  print(age);
+
+  print('------ map ------');
+  var map1 = {"Ami":29,"Kana":21,"Shiho":25,"Misako":27};
+  print(map1);
+  print(map1["Misako"]);
+  map1["Mana"] = 26;
+  map1["Misako"] =10;
+  print(map1);
+
+  print("------ 空のmap ------");
+  var map2 ={};
+  map2["Risa"] = 18;
+  print(map2); 
 }

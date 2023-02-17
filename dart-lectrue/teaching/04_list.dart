@@ -82,5 +82,22 @@ void main() {
 ----------------------------------*/
 
 void main() {
-  // ここに書いてね
+  var age = <int>[12,22,32];
+  age[0] = 5;
+  print(age);
+
+  print('------ list------');
+  var names = ["Rav4","Corolla","Yaris","Harrier"];
+  print(names);
+  print(names[1]);
+
+  print("------ Empty list -------");
+  List<int> list1 = [];
+  list1.add(123);
+  list1.add(456);
+  list1.add(789);
+  list1[1] = 999;
+  print(list1);
+
+  List<int> list2 =[];
 }
