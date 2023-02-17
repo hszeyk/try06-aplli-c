@@ -97,4 +97,12 @@ void main() {
 
 void main() {
   // ここに書いてね
+  var age = {"ichiro": 12, "jiro": 22, "saburo": 33};
+  // print(age);
+  // print(age["ichiro"]);
+  // print(age.keys.first);
+  age["total"] = age["ichiro"]! + age["jiro"]! + age["saburo"]!;
+  print(age["total"]);
+  age["ichiro"] = 13;
+  print(age["ichiro"]);
 }

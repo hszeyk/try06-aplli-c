@@ -83,4 +83,10 @@ void main() {
 
 void main() {
   // ここに書いてね
+  var age = <int>[12, 22, 32, 42];
+  // print(age[3]);
+  var child = age[0] + age[1];
+  print(child);
+  age[0] = 5;
+  print(age);
 }
