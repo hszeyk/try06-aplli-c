@@ -84,5 +84,18 @@ void main() {
 ----------------------------------*/
 
 void main() {
-  // ここに書いてね
+  var number=8;
+  print(number);
+  number=number+4;
+  print(number);
+  const String animal = 'センザンコウ';
+  print(animal);
+  final neko;  
+  // finalは再代入不可
+  neko=3;
+  print('猫は$neko匹います');
+  // neko=6;
+  // print('やっぱり猫は$neko匹います');
+  // 上のコメントアウトしているコードを実行すると エラー: 最終変数 'neko' は、この時点で既に割り当てられている可能性があります。 左の様に再代入はできないと叱られる 多分constでいいと思われる そもそもfinalで宣言だけしておくならconstで中身まで決めればよいのでは？
+
 }

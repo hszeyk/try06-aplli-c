@@ -96,5 +96,13 @@ void main() {
 ----------------------------------*/
 
 void main() {
-  // ここに書いてね
+  var hogehoge={"gorou":34,"tashiro":23,"suzuki":24};
+  print(hogehoge["suzuki"]);
+  print(hogehoge.keys.last);
+  hogehoge["total"]=hogehoge["gorou"]!+hogehoge["tashiro"]!+hogehoge["suzuki"]!;
+  print(hogehoge);
+  hogehoge["suzuki"]=25;
+  print(hogehoge["suzuki"]);
+  print(hogehoge);
+  // 値を更新した場合の注意点としてトータルの値は更新しても現在の方法だと変動しない。トータルは値渡し(その時の値のみを見る形式)で渡されているため渡されたときの数値を出す、これを現在の数値のトータルと合わせるようにするには参照渡しという形式にしなければならない。
 }

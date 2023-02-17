@@ -111,5 +111,9 @@ void main() {
 ----------------------------------*/
 
 void main() {
-  // ここに書いてね
+  var test=[3,76,324];
+  for(var item in test){
+    print(item);
+  }
+  
 }

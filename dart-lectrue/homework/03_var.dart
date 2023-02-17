@@ -29,8 +29,12 @@ void main() {
 
 void main() {
   // 問題①のプログラムを書いてね
-
+  const String weather='晴れ';
+  print('明日の天気は$weatherです');
   // 問題②のプログラムを書いてね
-
+  dynamic box=1;
+  box= '猫';
+  print(box);
   // 問題③は動かさないで考えてみよう〜!
+  // 定数で固定しているため動かないもしくは動いても思ったように動かない物と思われる
 }

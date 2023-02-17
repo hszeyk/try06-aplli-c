@@ -82,5 +82,15 @@ void main() {
 ----------------------------------*/
 
 void main() {
-  // ここに書いてね
+  var hogehoge=<int>[24,21,36];
+  print(hogehoge[2]);
+  var karasu=hogehoge[0]*hogehoge[2];
+  print(karasu);
+  hogehoge[3]=46;
+  print(hogehoge);
+  
+  // リストは数え始めが0なので3個の数字を入れてたとして三番目を選択したいときに3を入れてはならない なぜなら3を入力した場合存在しない四つ目の数字を探しに行ってしまい当然だが存在しないためエラーが出る
+  // hogehoge[0]=47;
+  // print(hogehoge);
+  
 }
