@@ -29,8 +29,14 @@ void main() {
 
 void main() {
   // 問題①のプログラムを書いてね
-
+  const weather = '晴れ';
+  print('明日の天気は$weatherです');
   // 問題②のプログラムを書いてね
+  dynamic box= 1;
+  print(box);
+  box='猫';
+  print(box);
 
   // 問題③は動かさないで考えてみよう〜!
+  // A.動かない　finalは再代入できないから
 }

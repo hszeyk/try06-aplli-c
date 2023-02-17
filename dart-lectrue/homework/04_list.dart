@@ -11,4 +11,6 @@
 
 void main() {
   // 問題のプログラムを書いてね
+  var curry = <String>['ジャガイモ', '牛肉', '玉ねぎ'];
+  print(curry[1]);
 }
