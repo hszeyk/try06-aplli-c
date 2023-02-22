@@ -142,6 +142,29 @@ int sum(int n) {
 
 void main() {
   // ここに書いてみよう！
+  // void greet(){
+  //   print('こんにちは');
+  // }
+  // greet();
+
+  // greet('一郎', '朝');
+  // greet('次郎', '夜');
+  print(sum(5));
+}
+// void greet(name, time) {
+//   if (time == '夜') {
+//     print('$nameさん、こんばんは');
+//   }else {
+//     print('$nameさん、こんにちは');
+//   }
+// }
+
+int sum(int n) {
+  var result = 0;
+  for (var i = 1; i <=n; i++) {
+    result += i;
+  }
+  return result;
 }
 
 // ここにも書こう！

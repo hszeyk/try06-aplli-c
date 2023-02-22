@@ -112,4 +112,16 @@ void main() {
 
 void main() {
   // ここに書いてね
+  var i = 0;
+  while (i < 3) {
+    print(i);
+    i++;
+  }
+  for (var i = 0; i < 3; i++){
+    print(i);
+  }
+  var birth = [2, 3, 10];
+  for (var item in birth){
+    print(item);
+  }
 }
