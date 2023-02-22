@@ -11,4 +11,7 @@
 
 void main() {
   // プログラムを書いてね
+  var bloodType = {"りゅうせい": 'A', "父": 'B'};
+  // String mybloodtype = bloodType["りゅうせい"];
+  print('りゅうせいは'+bloodType["りゅうせい"]!+'型です');
 }
