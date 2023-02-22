@@ -21,8 +21,22 @@
 
 void main() {
   // 問題①のプログラムを書いてね
+  var i = 0;
 
+  while (i < 11) {
+    print(i);
+    i++;
+  }
   // 問題②のプログラムを書いてね
+  List<String> animal = ['うさぎ', 'ぞう', 'きりん', 'らいおん', 'とら'];
 
+  for (var i = 0; i < animal.length; i++) {
+    print(animal[i]);
+  }
   // 問題③のプログラムを書いてね
+  for (var i = 1; i < 11; i++) {
+    if (i % 2 == 0) {
+      print(i);
+    }
+  }
 }

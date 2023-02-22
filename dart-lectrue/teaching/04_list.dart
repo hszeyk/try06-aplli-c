@@ -82,5 +82,9 @@ void main() {
 ----------------------------------*/
 
 void main() {
-  // ここに書いてね
+  var age = <int>[10, 20, 30, 40, 50];
+
+  for (var i = 0; i < age.length; i++) {
+    print(age[i]);
+  }
 }

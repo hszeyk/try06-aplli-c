@@ -91,4 +91,5 @@ void main() {
   print((3 + 2) * -1);
   print(2.111 + 3);
   print('こんにちは');
+  print(true);
 }

@@ -17,7 +17,17 @@
 ----------------------------------*/
 
 void main() {
-  // プログラムを書こう！
+  var stock = <int>[1, 2, 3];
+
+  for (var i = 0; i < stock.length; i++) {
+    var count = minas(stock[i]);
+    print('$count 個販売中');
+  }
 }
 
-// ここにも書こう！
+int minas(num) {
+  var result = 0;
+
+  result = num - 1;
+  return result;
+}

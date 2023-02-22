@@ -81,5 +81,32 @@ void main() {
 ----------------------------------*/
 
 void main() {
-  // ここに書いてね
+  var birth = [2, 3, 10];
+
+  // if (birth[0] == 2) {
+  //   print("おめでとう");
+  // } else {
+  //   print("こんにちは");
+  // }
+  // if (birth[1] == 2) {
+  //   print("おめでとう");
+  // } else {
+  //   print("こんにちは");
+  // }
+
+  // 三項演算子で書く
+  print(birth[0] == 2 ? "おめでとう" : "こんにちは");
+
+  // switch文で書く
+  switch (birth[0]) {
+    case 2:
+      print("おめでとう");
+      break;
+    case 3:
+      print("こんにちは");
+      break;
+    case 10:
+      print("こんにちは");
+      break;
+  }
 }

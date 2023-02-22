@@ -85,9 +85,6 @@ void main() {
 
 void main() {
   // ここに書いてね
-  var number = 5;
-  print(number);
-
-  number = 1;
-  print(number);
+  const String animal = '猫';
+  print(animal);
 }

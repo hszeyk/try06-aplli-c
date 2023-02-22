@@ -111,5 +111,33 @@ void main() {
 ----------------------------------*/
 
 void main() {
-  // ここに書いてね
+  var i = 0;
+  while (i < 3) {
+    print(i);
+    i++;
+  }
+
+  // for
+  for (var i = 0; i < 3; i++) {
+    print(i);
+  }
+
+  var birth = [2, 3, 10];
+  for (var item in birth) {
+    print(item);
+  }
+
+  // 1から１０までの数字を表示
+  for (var j = 1; j < 11; j++) {
+    print(j);
+  }
+
+  // 1,3,5,7,9,11,13,15
+  for (var j = 1; j < 16; j = j + 2) {
+    print(j);
+  }
+  // 2,4,8,16,32,64,128
+  for (var j = 2; j < 129; j = j * 2) {
+    print(j);
+  }
 }

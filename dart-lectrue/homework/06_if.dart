@@ -10,5 +10,12 @@
 ----------------------------------*/
 
 void main() {
-  // プログラムを書いてね
+  String name = "中島";
+  String name2 = "田中";
+
+  if (name == name2) {
+    print("ようこそ");
+  } else {
+    print("入れません");
+  }
 }
