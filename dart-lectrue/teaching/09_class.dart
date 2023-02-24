@@ -55,7 +55,23 @@ class post {
 ----------------------------------*/
 
 void main() {
-  // ここに書いてね
+  post first = post();
+  first.name = 'タオル';
+  first.id = 'tawol';
+  first.time = 1;
+  first.text = 'おなかすいた';
+  first.send();
 }
 
+class post {
+  String name = '';
+  String id = '';
+  int time = 0;
+  String text = '';
+
+  void send() {
+    print('$name @$id $time分前');
+    print(text);
+  }
+}
 // ここにも書いてね

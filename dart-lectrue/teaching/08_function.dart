@@ -140,8 +140,16 @@ int sum(int n) {
   実際に書いてみよう！
 ----------------------------------*/
 
+
+
 void main() {
-  // ここに書いてみよう！
+  print(sum(100));
 }
 
-// ここにも書こう！
+int sum(int n) {
+  var result = (n + 1) * n ~/ 2;
+  // for (var i = 1; i <= n; i++){
+  //   result += i;
+  // }
+  return result;
+}

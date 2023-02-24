@@ -21,8 +21,29 @@
 
 void main() {
   // 問題①のプログラムを書いてね
-
+  var i = 1;
+  while (i <= 10) {
+    print(i);
+    i++;
+  }
+ 
   // 問題②のプログラムを書いてね
-
+  var animal = ["犬","猫","サル","キジ"];
+  for (var animals in animal) {
+    print(animals);
+  }
+  
   // 問題③のプログラムを書いてね
+    var b = 1;
+    while (b <= 10) {
+      if(b % 2 == 0){
+        print(b);
+        b++;
+      }
+      else {
+        b++;
+      }
+     
+    }
+
 }
