@@ -34,14 +34,11 @@ void main() {
   }
   
   // 問題③のプログラムを書いてね
-    var b = 1;
-    while (b <= 10) {
+    
+    for (var b = 1;b <= 10; b++) {
       if(b % 2 == 0){
         print(b);
-        b++;
-      }
-      else {
-        b++;
+        
       }
      
     }

@@ -15,7 +15,31 @@
 ----------------------------------*/
 
 void main() {
-  // ここに書いてね
+  post first = post();
+  first.name = 'タオル';
+  first.id = 'tawol';
+  first.time = 1;
+  first.text = 'おなかすいた';
+  first.send();
+
+  post second = post();
+  second.name = 'トライ';
+  second.id = 'try';
+  second.time = 3;
+  second.text = '勉強した！';
+  second.send();
 }
 
-// ここにも書いてね
+class post {
+  String name = '';
+  String id = '';
+  int time = 0;
+  String text = '';
+
+
+  void send() {
+    print('$name @$id $time分前');
+    print(text);
+
+  }
+}

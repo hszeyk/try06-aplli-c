@@ -18,6 +18,19 @@
 
 void main() {
   // プログラムを書こう！
+  var stock = <int>[1,2,3];
+  
+  int minas(num){
+    var number = num - 1;
+    return number;
+  }
+
+  for(var stocks in stock ){
+    print(minas(stocks).toString() + "個販売中");
+  }
+  
+  
+ 
 }
 
 // ここにも書こう！
