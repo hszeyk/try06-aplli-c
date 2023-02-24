@@ -11,4 +11,12 @@
 
 void main() {
   // プログラムを書いてね
+  const name = 'りゅうせい';
+  const name2 = 'りょう';
+  if (name2 == name){
+    print('ようこそ');
+  }else{
+    print('入れません');
+  }
+
 }
