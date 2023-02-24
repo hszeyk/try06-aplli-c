@@ -95,7 +95,8 @@ void main() {
   // }
 
   // 三項演算子で書く
-  print(birth[0] == 2 ? "おめでとう" : "こんにちは");
+  var aaa = birth[0] == 2 || birth[1] == 2 ? "おめでとう" : "こんにちは";
+  print(aaa);
 
   // switch文で書く
   switch (birth[0]) {

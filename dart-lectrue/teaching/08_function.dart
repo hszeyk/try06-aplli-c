@@ -141,26 +141,20 @@ int sum(int n) {
 ----------------------------------*/
 
 void main() {
-  greet('イチロウ', '朝');
-  greet('ジロウ', '夜');
+  // 一人目
+  var birth = 2000;
+  var age;
 
-  print(sum(2));
-}
+  age = 2023 - birth;
 
-void greet(name, time) {
-  if (time == '夜') {
-    print('$nameさん、こんばんは');
-  } else {
-    print('$nameさん、こんにちは');
-  }
-}
+  print(age);
 
-int sum(int n) {
-  var result = 0;
-  for (var i = 1; i <= n; i++) {
-    result += i;
-  }
-  return result;
+  // 二人目
+  birth = 2001;
+
+  age = 2023 - birth;
+
+  print(age);
 }
 
 // ここにも書こう！

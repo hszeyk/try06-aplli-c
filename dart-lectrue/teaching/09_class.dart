@@ -61,38 +61,28 @@ void main() {
   int time = 0;
   String text = '';
 
-
   name = 'タオル';
   id = 'tawol';
   time = 1;
   text = 'おなかすいた';
-  send(name,id,time,text);
+  send(name, id, time, text);
 }
 
-void send(name,id,time,text) {
+void send(name, id, time, text) {
+  print('$name @$id $time分前');
+  print(text);
+}
+
+class post {
+  String name = '';
+  String id = '';
+  int time = 0;
+  String text = '';
+
+  void send() {
     print('$name @$id $time分前');
     print(text);
+  }
 }
-
-// void main() {
-//   post first = post();
-//   first.name = 'タオル';
-//   first.id = 'tawol';
-//   first.time = 1;
-//   first.text = 'おなかすいた';
-//   first.send();
-// }
-
-// class post {
-//   String name = '';
-//   String id = '';
-//   int time = 0;
-//   String text = '';
-
-//   void send() {
-//     print('$name @$id $time分前');
-//     print(text);
-//   }
-// }
 
 // ここにも書いてね

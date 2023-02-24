@@ -19,13 +19,15 @@
 void main() {
   var stock = <int>[1, 2, 3];
 
-  for (var i = 0; i < stock.length; i++) {
-    var count = minas(stock[i]);
-    print('$count 個販売中');
-  }
+  print(minas(stock[0]));
+
+  // for (var i = 0; i < stock.length; i++) {
+  //   var count = minas(stock[i]);
+  //   print('$count 個販売中');
+  // }
 }
 
-int minas(num) {
+int minas(int num) {
   var result = 0;
 
   result = num - 1;
