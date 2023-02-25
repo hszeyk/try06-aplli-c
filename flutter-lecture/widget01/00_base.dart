@@ -1,7 +1,7 @@
-// flutterのパッケージを読み込み
+// flutterパッケージを読み込み
 import 'package:flutter/material.dart';
 
-// アプリを起動させる
+// アプリ起動させる
 void main() => runApp(MyApp());
 
 // この中にWidgetを追加してアプリを作る
@@ -15,11 +15,11 @@ class MyApp extends StatelessWidget {
       title: 'title',
       // テーマカラー
       theme: ThemeData(primarySwatch: Colors.blue),
-      // Widgetを入れる構造を作る
+      // Widgetを入れるツリー構造を作る
       home: Scaffold(
-          // 上のバー（タイトルなどを入れる）
+          // 上のバー（タイトルなど入れる）
           appBar: AppBar(title: const Text('title')),
-          // 本体
+          // 本体部分
           body: Container()),
     );
   }

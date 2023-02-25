@@ -1,3 +1,12 @@
+/*----------------------------------
+
+背景色をつけ、高さと幅を設定しよう！
+
+①全体の背景色を追加
+②プロフィール欄に幅と高さをつける
+
+----------------------------------*/
+
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -9,7 +18,7 @@ class MyApp extends StatelessWidget {
       title: 'Profile',
       theme: ThemeData(primarySwatch: Colors.blue),
       home: Scaffold(
-          // ★：①背景色を追加
+          // ★：①全体の背景色を追加
           backgroundColor: Colors.yellow.shade50,
           appBar: AppBar(title: const Text('自己紹介')),
           body: Center(
