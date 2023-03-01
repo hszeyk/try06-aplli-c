@@ -1,3 +1,14 @@
+/*----------------------------------
+
+borderをつけよう！
+
+①Containerにdecorationを設定する
+②背景色を設定
+③ボーダーをつける
+④ボーダーに丸みをつける
+
+----------------------------------*/
+
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -15,9 +26,9 @@ class MyApp extends StatelessWidget {
             child: Container(
               width: 300,
               height: 500,
-              // ★：①decorationを設定する
+              // ★：①Containerにdecorationを設定する
               decoration: BoxDecoration(
-                  // ★：②背景色の設定
+                  // ★：②背景色を設定
                   color: Colors.white,
                   // ★：③ボーダーをつける
                   border: Border.all(color: Colors.brown, width: 2),

@@ -1,3 +1,12 @@
+/*----------------------------------
+
+要素を横に並べよう！
+
+①childrenの中にRow()を入れる
+②childrenの中にTextを入れる（①②を全てに対し行う）
+
+----------------------------------*/
+
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
